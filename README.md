@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.map returns a new array with results of the execution of a function on the array element. .forEach does not return a new array. It executes a function on each element of the original array, therefore able to mutate the original array.
+
 2. What is the difference between a function and a method?
+
+A method is a function that sets a parameter for an object. 
 
 3. What is closure?
 
+A closure gives you access to an outer functions scope from an inner function. 
+
 4. Describe the four rules of the 'this' keyword.
 
+Window Binding - Refers to the global object containing variables and functions that can be accessed anywhere. 
+
+Implicit Binding - To the left of the dot (.), "this" refers to the object that is being accessed in the context of the function invocation. 
+
+Explicit Binding - When using .call or .apply, "this" is explicity passesd as a parameter.
+
+New Binding - When a construtor function is invoked, "this" refers to the instance of the new object that is returned by the constructor function. 
+
 5. Why do we need super() in an extended class?
+
+super() calls the parent class with parameters passed to the child so that the extended class can initialize the parent class in the subclass - inheritance. 
 
 ## Project Set up
 
@@ -46,16 +62,16 @@ Follow these steps to set up and work on your project:
 - [x] Add TL as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [x] You are now ready to build this project with your preferred IDE
 - [x] Implement the project on your Branch, committing changes regularly.
 - [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your team lead as a Reviewer on the Pull-request
-- [ ] TL then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your team lead as a Reviewer on the Pull-request
+- [x] TL then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
@@ -78,7 +94,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
